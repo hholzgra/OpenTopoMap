@@ -31,7 +31,7 @@
 		&maxscale_zoom14;
 		&minscale_zoom17;
 		<Filter>(([amenity] = 'place_of_worship') and (([building] = 'chapel') or ([building] = 'wayside_chapel'))) or ([historic] = 'wayside_chapel') </Filter>
-		<MarkersSymbolizer placement="point" file="symbols-otm/chapel.png" transform="translate(0 -3)"/>
+		<MarkersSymbolizer placement="point" file="symbols-otm/chapel.svg" transform="translate(0 -3)"/>
 	</Rule>
 	
 	<Rule>
