@@ -179,7 +179,7 @@
 		</Datasource>
 	</Layer>
 	
-	&hillshade;
+	<!-- &hillshade; TODO disabled for now -->
 	
 	<Layer name="landuse-over-hillshade">
 		<StyleName>landuse-over-hillshade</StyleName>
