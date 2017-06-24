@@ -2,6 +2,6 @@
 	<Rule>
 		&maxscale_zoom15;
 		&minscale_zoom17;
-		<PointSymbolizer file="symbols-otm/powertower.png" allow-overlap="true" ignore-placement="true"/>
+		<PointSymbolizer file="symbols-otm/powertower.svg" allow-overlap="true" ignore-placement="true"/>
 	</Rule>
 </Style>
