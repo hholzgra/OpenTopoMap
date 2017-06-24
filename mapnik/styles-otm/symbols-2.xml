@@ -228,13 +228,13 @@
 		&maxscale_zoom13;
 		&minscale_zoom13;
  		<Filter>[tourism] = 'alpine_hut'</Filter>
-		<PointSymbolizer file="symbols-otm/hut_alpine.png"/>
+		<PointSymbolizer file="symbols-otm/hut_alpine.svg"/>
 	</Rule>
 	<Rule>
 		&maxscale_zoom13;
 		&minscale_zoom13;
  		<Filter>[tourism] = 'wilderness_hut'</Filter>
-		<PointSymbolizer file="symbols-otm/hut_wilderness.png"/>
+		<PointSymbolizer file="symbols-otm/hut_wilderness.svg"/>
 	</Rule>
 	<Rule>
 		&maxscale_zoom14;
