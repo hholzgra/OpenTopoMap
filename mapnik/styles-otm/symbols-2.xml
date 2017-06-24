@@ -181,7 +181,7 @@
 		&maxscale_zoom14;
 		&minscale_zoom17;
 		<Filter>(([historic] = 'memorial' and [memorial:type] != 'stolperstein') or ([historic] = 'monument'))</Filter>
-		<MarkersSymbolizer placement="point" file="symbols-otm/monument.png" transform="translate(0 -2)"/>
+		<MarkersSymbolizer placement="point" file="symbols-otm/monument.svg" transform="translate(0 -2)"/>
 	</Rule>
 	
 	<Rule>
