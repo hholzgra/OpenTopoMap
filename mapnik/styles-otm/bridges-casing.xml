@@ -112,8 +112,8 @@
 		&maxscale_zoom13;
 		&minscale_zoom13;
 		<Filter>[length] &gt; 100 and ([highway] = 'motorway')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_8px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_8px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_8px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_8px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -126,8 +126,8 @@
 		&maxscale_zoom13;
 		&minscale_zoom13;
 		<Filter>[length] &gt; 100 and ([highway] = 'trunk')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_6px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_6px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_6px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_6px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -140,8 +140,8 @@
 		&maxscale_zoom13;
 		&minscale_zoom13;
 		<Filter>[length] &gt; 100 and ([highway] = 'motorway_link' or [highway] = 'primary' or [highway] = 'secondary')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_4px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_4px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_4px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_4px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -154,8 +154,8 @@
 		&maxscale_zoom13;
 		&minscale_zoom13;
 		<Filter>[length] &gt; 100 and ([highway] = 'tertiary')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_3px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_3px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_3px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_3px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -168,8 +168,8 @@
 		&maxscale_zoom13;
 		&minscale_zoom13;
 		<Filter>[length] &gt; 100 and ([highway] = 'trunk_link' or [highway] = 'primary_link' or [highway] = 'secondary_link' or [highway] = 'tertiary_link')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_3px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_3px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_3px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_3px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -182,8 +182,8 @@
 		&maxscale_zoom13;
 		&minscale_zoom13;
 		<Filter>[length] &gt; 100 and ([highway] = 'unclassified')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_3px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_3px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_3px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_3px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -196,8 +196,8 @@
 		&maxscale_zoom13;
 		&minscale_zoom13;
 		<Filter>[length] &gt; 100 and ([highway] = 'residential' or [highway] = 'road' or [highway] = 'living_street' or [highway] = 'pedestrian')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_2px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_2px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_2px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_2px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -210,8 +210,8 @@
 		&maxscale_zoom13;
 		&minscale_zoom13;
 		<Filter>[length] &gt; 100 and ([highway] = 'service')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_2px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_2px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_2px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_2px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -244,8 +244,8 @@
 		&maxscale_zoom13;
 		&minscale_zoom13;
 		<Filter>[length] &gt; 100 and ([highway] = 'raceway')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_4px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_4px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_4px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_4px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 
 
@@ -274,8 +274,8 @@
 		&maxscale_zoom14;
 		&minscale_zoom14;
 		<Filter>[length] &gt; 30 and ([highway] = 'trunk')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_9px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_9px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_9px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_9px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -288,8 +288,8 @@
 		&maxscale_zoom14;
 		&minscale_zoom14;
 		<Filter>[length] &gt; 30 and ([highway] = 'primary' or [highway] = 'secondary')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_5px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_5px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_5px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_5px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -302,8 +302,8 @@
 		&maxscale_zoom14;
 		&minscale_zoom14;
 		<Filter>[length] &gt; 30 and ([highway] = 'motorway_link')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_4px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_4px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_4px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_4px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -316,8 +316,8 @@
 		&maxscale_zoom14;
 		&minscale_zoom14;
 		<Filter>[length] &gt; 30 and ([highway] = 'trunk_link' or [highway] = 'primary_link' or [highway] = 'secondary_link')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_4px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_4px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_4px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_4px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -330,8 +330,8 @@
 		&maxscale_zoom14;
 		&minscale_zoom14;
 		<Filter>[length] &gt; 30 and ([highway] = 'unclassified')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_4px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_4px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_4px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_4px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -344,8 +344,8 @@
 		&maxscale_zoom14;
 		&minscale_zoom14;
 		<Filter>[length] &gt; 30 and ([highway] = 'tertiary' or [highway] = 'tertiary_link')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_4px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_4px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_4px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_4px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -358,8 +358,8 @@
 		&maxscale_zoom14;
 		&minscale_zoom14;
 		<Filter>[length] &gt; 30 and ([highway] = 'residential' or [highway] = 'road' or [highway] = 'living_street' or [highway] = 'pedestrian')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_3px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_3px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_3px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_3px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -372,8 +372,8 @@
 		&maxscale_zoom14;
 		&minscale_zoom14;
 		<Filter>[length] &gt; 30 and ([highway] = 'track' and [tracktype] = 'grade1')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_3px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_3px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_3px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_3px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -386,8 +386,8 @@
 		&maxscale_zoom14;
 		&minscale_zoom14;
 		<Filter>[length] &gt; 30 and ([highway] = 'service')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_3px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_3px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_3px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_3px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -456,8 +456,8 @@
 		&maxscale_zoom14;
 		&minscale_zoom14;
 		<Filter>[length] &gt; 30 and ([highway] = 'raceway')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_5px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_5px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_5px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_5px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 
 
@@ -487,8 +487,8 @@
 		&maxscale_zoom15;
 		&minscale_zoom15;
 		<Filter>[length] &gt; 30 and ([highway] = 'motorway_link' or [highway] = 'primary' or [highway] = 'secondary')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_7px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_7px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_7px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_7px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -501,8 +501,8 @@
 		&maxscale_zoom15;
 		&minscale_zoom15;
 		<Filter>[length] &gt; 30 and ([highway] = 'trunk_link' or [highway] = 'primary_link' or [highway] = 'secondary_link')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_6px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_6px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_6px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_6px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -515,8 +515,8 @@
 		&maxscale_zoom15;
 		&minscale_zoom15;
 		<Filter>[length] &gt; 30 and ([highway] = 'tertiary' or [highway] = 'tertiary_link' or [highway] = 'residential' or [highway] = 'unclassified' or [highway] = 'road' or [highway] = 'living_street' or [highway] = 'pedestrian')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_5px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_5px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_5px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_5px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -529,8 +529,8 @@
 		&maxscale_zoom15;
 		&minscale_zoom15;
 		<Filter>[length] &gt; 30 and ([highway] = 'track' and [tracktype] = 'grade1')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_3px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_3px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_3px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_3px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -543,8 +543,8 @@
 		&maxscale_zoom15;
 		&minscale_zoom15;
 		<Filter>[length] &gt; 30 and ([highway] = 'service')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_3px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_3px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_3px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_3px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -557,8 +557,8 @@
 		&maxscale_zoom15;
 		&minscale_zoom15;
 		<Filter>[length] &gt; 30 and ([highway] = 'raceway')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_6px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_6px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_6px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_6px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<!-- zoom 15-17 (lines without filling) -->
@@ -620,8 +620,8 @@
 		&maxscale_zoom16;
 		&minscale_zoom16;
 		<Filter>[length] &gt; 10 and (([highway] = 'service' and [service] = null) or [highway] = 'motorway_link' or [highway] = 'trunk_link' or [highway] = 'primary_link' or [highway] = 'secondary_link' or [highway] = 'tertiary_link')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_8px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_8px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_8px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_8px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	<Rule>
 		&maxscale_zoom16;
@@ -633,8 +633,8 @@
 		&maxscale_zoom16;
 		&minscale_zoom16;
 		<Filter>[length] &gt; 10 and (([highway] = 'track' and [tracktype] = 'grade1') or ([highway] = 'service' and [service] != null))</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_5px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_5px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_5px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_5px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 
@@ -691,8 +691,8 @@
 		&maxscale_zoom17;
 		&minscale_zoom17;
 		<Filter>[length] &gt; 3 and ([highway] = 'raceway')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_9px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_9px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_9px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_9px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -705,8 +705,8 @@
 		&maxscale_zoom17;
 		&minscale_zoom17;
 		<Filter>[length] &gt; 3 and (([highway] = 'service' and [service] = null) or [highway] = 'living_street' or [highway] = 'pedestrian' or [highway] = 'motorway_link' or [highway] = 'trunk_link' or [highway] = 'primary_link' or [highway] = 'secondary_link' or [highway] = 'tertiary_link')</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_8px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_8px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_8px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_8px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
@@ -719,8 +719,8 @@
 		&maxscale_zoom17;
 		&minscale_zoom17;
 		<Filter>[length] &gt; 3 and (([highway] = 'track' and [tracktype] = 'grade1') or ([highway] = 'service' and [service] != null))</Filter>
-		<MarkersSymbolizer file="symbols-otm/bridge_5px_first.png" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
-		<MarkersSymbolizer file="symbols-otm/bridge_5px_last.png" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_5px_first.svg" placement="vertex-first" allow-overlap="true" ignore-placement="true" />
+		<MarkersSymbolizer file="symbols-otm/bridge_5px_last.svg" placement="vertex-last" allow-overlap="true" ignore-placement="true" />
 	</Rule>
 	
 	<Rule>
