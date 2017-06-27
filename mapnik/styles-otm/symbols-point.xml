@@ -9,7 +9,7 @@
 		&maxscale_zoom12;
 		&minscale_zoom17;
 		<Filter>(([natural] = 'peak' or [natural] = 'volcano') and (not [summit:cross] = 'yes'))</Filter>
-		<PointSymbolizer file="symbols-otm/peak.png"/>
+		<PointSymbolizer file="symbols-otm/peak.svg"/>
 	</Rule>
 	<Rule>
 		&maxscale_zoom12;
