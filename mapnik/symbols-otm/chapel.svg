@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="chappel.svg">
+   sodipodi:docname="chapel.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="82.1"
-     inkscape:cx="4.2996346"
-     inkscape:cy="6.1321403"
+     inkscape:cx="4.5273144"
+     inkscape:cy="4.4746401"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -46,19 +46,19 @@
      inkscape:snap-bbox-midpoints="true"
      inkscape:snap-page="true">
     <sodipodi:guide
-       position="0.69427527,6.5042631"
+       position="-0.66991474,4.9939099"
        orientation="0,1"
        id="guide8087" />
     <sodipodi:guide
-       position="1.8879415,3.4957369"
+       position="-0.69427527,3.9951279"
        orientation="0,1"
        id="guide8089" />
     <sodipodi:guide
-       position="3.4957369,6.5042631"
+       position="3.9951279,9"
        orientation="1,0"
        id="guide8091" />
     <sodipodi:guide
-       position="6.5042631,8.2095006"
+       position="4.9939099,9.4153471"
        orientation="1,0"
        id="guide8093" />
     <sodipodi:guide
@@ -86,7 +86,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -96,9 +96,10 @@
      id="layer1"
      transform="translate(0,-1043.3622)">
     <path
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.41879821;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 0.31201788,1046.6022 2.92801672,0 0,-2.928 2.5199308,0 0,2.928 2.9280167,0 0,2.52 -2.9280167,0 0,2.928 -2.5199308,0 0,-2.928 -2.92801672,0 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.419;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 0.87231021,1047.1625 2.92801669,0 0,-2.928 1.4115264,0 0,2.928 2.9280167,0 0,1.4116 -2.9280167,0 0,2.928 -1.4115264,0 0,-2.928 -2.92801669,0 z"
        id="path8103"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccc" />
   </g>
 </svg>
