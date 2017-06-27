@@ -71,7 +71,7 @@
 		&maxscale_zoom13;
 		&minscale_zoom15;
 		<Filter>[man_made] = 'tower' and [tower:type] = 'communication'</Filter>
-		<MarkersSymbolizer placement="point" file="symbols-otm/communications_tower_svg.png" transform="translate(0 -5)"/>
+		<MarkersSymbolizer placement="point" file="symbols-otm/communications_tower_z13.svg" transform="translate(0 -5)"/>
 	</Rule>
 	<Rule>
 		&maxscale_zoom16;
