@@ -58,7 +58,7 @@
 		&maxscale_zoom11;
 		&minscale_zoom15;
 		<Filter>([man_made] = 'communications_tower') or ([communication:radio] = 'yes') or ([communication:television] = 'yes')</Filter>
-		<MarkersSymbolizer placement="point" file="symbols-otm/communications_tower_z13.png" transform="translate(0 -5)"/>
+		<MarkersSymbolizer placement="point" file="symbols-otm/communications_tower_z13.svg" transform="translate(0 -5)"/>
 	</Rule>
 	<Rule>
 		&maxscale_zoom16;
@@ -71,13 +71,13 @@
 		&maxscale_zoom13;
 		&minscale_zoom15;
 		<Filter>[man_made] = 'tower' and [tower:type] = 'communication'</Filter>
-		<MarkersSymbolizer placement="point" file="symbols-otm/communications_tower_z13.png" transform="translate(0 -5)"/>
+		<MarkersSymbolizer placement="point" file="symbols-otm/communications_tower_svg.png" transform="translate(0 -5)"/>
 	</Rule>
 	<Rule>
 		&maxscale_zoom16;
 		&minscale_zoom17;
 		<Filter>[man_made] = 'tower' and [tower:type] = 'communication'</Filter>
-		<MarkersSymbolizer placement="point" file="symbols-otm/communications_tower.png" transform="translate(0 -5)"/>
+		<MarkersSymbolizer placement="point" file="symbols-otm/communications_tower.svg" transform="translate(0 -5)"/>
 		<TextSymbolizer fontset-name="sans-oblique" size="9" fill="black" halo-radius="2" halo-fill="rgba(255,255,255,0.8)" placement="point" dy="6" wrap-width="100" wrap-before="true">[name]</TextSymbolizer>
 	</Rule>
 	
@@ -85,7 +85,7 @@
 		&maxscale_zoom14;
 		&minscale_zoom17;
 		<Filter>([man_made] = 'mast')</Filter>
-		<MarkersSymbolizer placement="point" file="symbols-otm/communications_mast.png" transform="translate(0 -5)"/>
+		<MarkersSymbolizer placement="point" file="symbols-otm/communications_mast.svg" transform="translate(0 -5)"/>
 	</Rule>
 	<Rule>
 		&maxscale_zoom14;
