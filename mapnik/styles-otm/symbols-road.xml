@@ -21,6 +21,6 @@
 		&maxscale_zoom16;
 		&minscale_zoom17;
 		<Filter>[highway] = 'bus_stop'</Filter>
-		<PointSymbolizer file="symbols-otm/bus_stop.png"/>
+		<PointSymbolizer file="symbols-otm/bus_stop.svg"/>
 	</Rule>
 </Style>
