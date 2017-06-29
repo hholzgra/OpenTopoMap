@@ -3,7 +3,7 @@
 		&maxscale_zoom14;
 		&minscale_zoom17;
 		<Filter>[railway] = 'level_crossing'</Filter>
-		<PointSymbolizer file="symbols-otm/railway_crossing.png"/>
+		<PointSymbolizer file="symbols-otm/railway_crossing.svg"/>
 	</Rule>
 	
 	<Rule>
