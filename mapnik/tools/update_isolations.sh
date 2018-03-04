@@ -22,8 +22,6 @@ DBname='gis'
 toolpath='mapnik/tools'
 demfile='mapnik/dem/dem-srtm.tiff'
 
-cd ~/OpenTopoMap/
-
 
 ###### Prepare #########
 #
