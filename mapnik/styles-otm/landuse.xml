@@ -1,21 +1,29 @@
 <Style name="landuse">
-	<Rule>
+    <!-- Forest outlines. Once more in landuse-over-hillshade -->
+    <Rule>
 		&maxscale_zoom11;
 		&minscale_zoom11;
 		<Filter>([natural] = 'wood' or [landuse] = 'wood' or [landuse] = 'forest')</Filter>
-		<PolygonSymbolizer fill="#b9d984" />
+        <LineSymbolizer stroke="#61983c" stroke-width="0.3" stroke-opacity="0.3" />
 	</Rule>
-    <Rule>
+   <Rule>
 		&maxscale_zoom12;
 		&minscale_zoom13;
 		<Filter>([natural] = 'wood' or [landuse] = 'wood' or [landuse] = 'forest')</Filter>
-        <LineSymbolizer stroke="#399b3c" stroke-width="0.7" stroke-opacity="0.9" />
+        <LineSymbolizer stroke="#61983c" stroke-width="0.6" stroke-opacity="0.3" />
 	</Rule>
 	<Rule>
 		&maxscale_zoom14;
 		&minscale_zoom17;
 		<Filter>([natural] = 'wood' or [landuse] = 'wood' or [landuse] = 'forest')</Filter>
 		<LinePatternSymbolizer opacity="0.9" file="symbols-otm/forest-outline.png"/>
+	</Rule>
+
+    <Rule>
+		&maxscale_zoom11;
+		&minscale_zoom11;
+		<Filter>([natural] = 'wood' or [landuse] = 'wood' or [landuse] = 'forest')</Filter>
+		<PolygonSymbolizer fill="#b9d984" />
 	</Rule>
 	<Rule>
 		&maxscale_zoom12;
@@ -123,6 +131,12 @@
 	</Rule>
 
 	<!-- for pitch overlays see "symbols-sport" -->	
+    <Rule>
+		&maxscale_zoom15;
+		&minscale_zoom15;
+		<Filter>[leisure] = 'track'</Filter>
+		<LineSymbolizer stroke="black" stroke-width="0.8" />
+	</Rule>
 	<Rule>
 		&maxscale_zoom16;
 		&minscale_zoom17;
