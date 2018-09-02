@@ -329,7 +329,7 @@ int main(int argc, char *argv[]){
    if(debuglevel>0){printf("%lld;%.7lf;%.7lf;%.0lf;%.0lf;%lld;%.7lf;%.7lf\n",peak[n].id,peak[n].lon,peak[n].lat,peak[n].ele,peak[n].isolation,peak[n].heigherpeak_id,peak[n].heigherpoint_lon,peak[n].heigherpoint_lat);}
    else            {printf("%lld;%.7lf;%.7lf;%.0f\n",peak[n].id,peak[n].lon,peak[n].lat,peak[n].isolation);}
   }
-  else              if(strcmp(outputformat,"sql")==0) {printf("update planet_osm_point set otm_isolation='%.0lf' where osm_id=%lld;\n",peak[n].isolation,peak[n].id);}
+  else              if(strcmp(outputformat,"sql")==0) {printf("update planet_osm_hstore_point set tags = tags || hstore('otm_isolation','%.0lf') where osm_id=%lld;\n",peak[n].isolation,peak[n].id);}
  } 
  exit(0);
 }

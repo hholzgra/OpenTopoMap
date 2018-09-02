@@ -248,7 +248,7 @@ int main(int argc, char *argv[]){
    sprintf(returndirection,"%d",direction);
    if((!outputformat)||(strcmp(outputformat,"csv")==0)){printf("%lld;%.7lf;%.7lf;%s\n",id,lon,lat,returndirection);}
    else if(strcmp(outputformat,"sql")==0){
-    printf("update planet_osm_point set direction='%s' where osm_id=%lld;\n",returndirection,id);
+    printf("update planet_osm_hstore_point set tags = tags || hstore('direction','%s') where osm_id=%lld;\n",returndirection,id);
    }
   }
  }

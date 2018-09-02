@@ -39,7 +39,7 @@
 --
 --
 
-CREATE OR REPLACE FUNCTION getstationdirection(Point IN GEOMETRY,Stationlayer in TEXT) RETURNS TEXT AS $$
+CREATE OR REPLACE FUNCTION getstationdirection(Point IN GEOMETRY,Stationlayer in INT) RETURNS TEXT AS $$
 
  DECLARE
   SearchArea   CONSTANT INTEGER :=   80;
@@ -115,11 +115,11 @@ $$ LANGUAGE plpgsql;
 -- --------------------------------------------------------------------------
 
 UPDATE planet_osm_point 
-       SET direction=getstationdirection(way,layer)
-       WHERE (railway='station' OR railway='halt') 
-             AND (station IS NULL OR station!='subway') 
-             AND (subway IS NULL OR subway!='yes')
-             AND (direction IS NULL or direction NOT SIMILAR TO '[0-9]+');
+       SET tags = tags || hstore('direction', getstationdirection(way,(tags->'layer')::int))
+       WHERE (tags->'railway'='station' OR tags->'railway'='halt') 
+             AND (tags->'station' IS NULL OR tags->'station'!='subway') 
+             AND (tags->'subway' IS NULL OR tags->'subway'!='yes')
+             AND (tags->'direction' IS NULL or tags->'direction' NOT SIMILAR TO '[0-9]+');
 
 
 -- ----------------------------------------------------------------
