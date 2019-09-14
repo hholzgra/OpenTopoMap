@@ -50,29 +50,23 @@ This guide is quite complete, but you should always think about before blindly c
 	sudo apt install postgresql postgresql-10-postgis-2.4
 
 
-
-
-#################################### below not verified yet #######################
 	# change default path via symlink (works better than changing postgres config):
 	sudo chown postgres /mnt/database
 	sudo chgrp postgres /mnt/database
 	sudo service postgresql stop
-	sudo cp -a /var/lib/postgresql/9.5/main /mnt/database
-	sudo rm -r /var/lib/postgresql/9.5
-	sudo ln -s /mnt/database /var/lib/postgresql/9.5
+	sudo cp -a /var/lib/postgresql/10/main /mnt/database
+	sudo rm -r /var/lib/postgresql/10
+	sudo ln -s /mnt/database /var/lib/postgresql/10
 	sudo service postgresql start
 
+
 	# Tweaks:
-		Edit the file /etc/postgresql/9.5/main/postgresql.conf and make the following changes:
+		Edit the file /etc/postgresql/10/main/postgresql.conf and make the following changes:
 			shared_buffers = 128MB
 			work_mem = 256MB			
 			maintenance_work_mem = 256MB
 			autovacuum = off
 
-		As root, edit /etc/sysctl.conf and add these lines near the top after the other “kernel” definitions:
-			# Increase kernel shared memory segments - needed for large databases
-			kernel.shmmax=268435456
-################################### above not verified yet #########################
 
 # Install Mapnik renderer:
 	sudo apt install libmapnik3.0 libmapnik-dev mapnik-utils python-mapnik unifont
@@ -116,6 +110,7 @@ This guide is quite complete, but you should always think about before blindly c
 	
 	sudo rm -rf /var/lib/mod_tile
 	sudo ln -s /var/lib/tirex/tiles /var/lib/mod_tile
+    sudo ln -s /mnt/tiles /var/lib/tirex/tiles
 	
 	# fix "error" of mod-tile installation (in fact there is no error, apache just can't load the default configs):
 	sudo apt install -f
@@ -153,10 +148,8 @@ This guide is quite complete, but you should always think about before blindly c
     sudo vi /etc/logrotate.d/apache2 
 
 
-######################################### below not verified yet ###########
 # Install osm2pgsql from source
-	sudo apt install cmake libbz2-dev libgeos-dev libgeos++-dev libproj-dev lua5.3 liblua5.3-dev
-
+	sudo apt install cmake libbz2-dev libgeos-dev libpq-dev libproj-dev lua5.3 liblua5.3-dev
 	cd ~/src
 	git clone git://github.com/openstreetmap/osm2pgsql.git
 	cd osm2pgsql
@@ -168,22 +161,26 @@ This guide is quite complete, but you should always think about before blindly c
 
 # Create user and database
 	sudo -u postgres -i
-	createuser --createdb osmuser   // superuser!?
-    createuser tirex                // read only!?
+	createuser --superuser osmuser
+    createuser tirex
 	exit
 	createdb gis
 	psql -d gis -c 'CREATE EXTENSION postgis;'
+    psql -d gis -c 'GRANT SELECT ON ALL TABLES IN SCHEMA public TO tirex;'
+    psql -d lowzoom -c 'GRANT SELECT ON ALL TABLES IN SCHEMA public TO tirex;'
+    psql -d gis -c 'GRANT CONNECT ON DATABASE gis TO tirex;'
+
 
 
 # Load data into database
 	mkdir ~/data && cd ~/data
-	wget http://download.geofabrik.de/europe-latest.osm.pbf
-	cd ~/data/updates
-	wget http://download.geofabrik.de/europe-updates/state.txt
+	screen wget https://planet.openstreetmap.org/pbf/planet-latest.osm.pbf
 
-	screen osm2pgsql --slim -d gis -C 12000 --number-processes 10 --flat-nodes /mnt/database/flat-nodes/gis-flat-nodes.bin --style ~/OpenTopoMap/mapnik/osm2pgsql/opentopomap.style ~/data/planet-latest.osm.pbf
+    # add hdd tablespace for temporary slim import file
+    psql -d gis -c "CREATE TABLESPACE hdd LOCATION '/mnt/tiles/database';"
 
     screen osm2pgsql --slim -d gis -C 12000 --tablespace-slim-data hdd --tablespace-slim-index hdd --number-processes 10 --flat-nodes /mnt/database/flat-nodes/gis-flat-nodes.bin --style ~/OpenTopoMap/mapnik/osm2pgsql/opentopomap.style ~/data/planet-latest.osm.pbf
+
 
 
 # Now do the preprocessing of the OSM data for low zoom levels
