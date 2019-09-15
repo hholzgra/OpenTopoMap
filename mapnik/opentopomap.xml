@@ -90,7 +90,7 @@
 	zoom 0...8: #117803
 	zoom 9+: e0e0e0
 -->
-<Map background-color="#e0e0e0" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" buffer-size="256">
+<Map background-color="#ffffff" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over" buffer-size="256">
 	<!-- style definitions -->
 	&fontset-settings;
 
@@ -189,7 +189,7 @@
 		</Datasource>
 	</Layer>
 	
-	<!-- &hillshade; TODO disabled for now -->
+	&hillshade;
 	
 	<Layer name="landuse-over-hillshade">
 		<StyleName>landuse-over-hillshade</StyleName>
